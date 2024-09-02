@@ -1,2 +1,2 @@
 # SICP
-All of my completed problem sets and excersizes for "Structure and Interpretation of Computer Programs"
+All of my completed problem sets and excersises for "Structure and Interpretation of Computer Programs"
