@@ -1,0 +1,11 @@
+(define (fastExp b n)
+  (define (isEven x)
+    (= (remainder x 2) 0))
+  (define (expIter N B A)
+    (cond ((= N 0 ) A) 
+          ((isEven N) (expIter (/ N 2) (square B) A))
+          (else (expIter (- N 1) B (* A B)))
+    ))
+
+  (expIter n b 1)
+)
